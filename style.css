@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  background: url(fondo.jpg);
+  font-family: 'Architects Daughter', cursive;
+}
+.title{
+  font-family: 'Mansalva', cursive;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+.sub{
+  text-align: center;
+  font-family: 'Mansalva', cursive;
+  font-size: 20px;
+  color: white;
+}
+.enterinput{
+  text-align: center;
+}
+.itementer{
+  margin: 10px;
+  padding: 5px 10px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 15px;
+}
+.itementer:focus{
+  outline-color: #7A736D;
+}
+.enterbtn {
+  background-color: transparent;
+  border-radius:6px;
+  border:1px solid white;
+  display:inline-block;
+  cursor:pointer;
+  color:white;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+}
+.enterbtn:hover{
+  background-color:white;
+  color: black;
+}
+.wrapper {
+      text-align: center;
+
+      margin: auto;
+    }
+    .wrapper ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+    .wrapper li {
+      text-align: left;
+      padding: 2px 5px;
+    }
+    .wrapper button{
+      display: inline-block;
+    }
+ul{
+  list-style-image: url(check.png);
+}
+.done {
+  cursor: pointer;
+  text-decoration: line-through;
+}
+.li-div{
+  cursor: pointer;
+  color: white;
+
+}
+button{
+  font-family: 'Architects Daughter', cursive;
+}
+.deletebtn{
+  margin: 2px 20px;
+  padding: 2px 5px;
+  background-color: transparent;
+  border:none;
+  display:inline-block;
+  cursor:pointer;
+  color:white;
+  font-size:15px;
+  font-weight:bold;
+  text-decoration:none;
+
+}
+.deletebtn:hover{
+  text-decoration: underline;
+  color: yellow;
+}
